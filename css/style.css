@@ -517,6 +517,13 @@ h1, h2, h3 {
   to { transform: scale(1.08); }
 }
 
+@media (min-width: 1280px) {
+  .hero-media img {
+    object-position: center 38%;
+    transform: scale(1.0);
+  }
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
