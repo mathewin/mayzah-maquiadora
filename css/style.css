@@ -51,7 +51,7 @@ html {
 
 body {
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.7;
   color: var(--ink);
   background: var(--bg);
@@ -1403,8 +1403,32 @@ h1, h2, h3 {
     --nav-h: 70px;
   }
 
+  html {
+    font-size: 16.75px;
+  }
+
+  body {
+    line-height: 1.65;
+  }
+
   .nav-actions .btn-outline {
     display: none;
+  }
+
+  .eyebrow {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+
+  .about-media-label {
+    font-size: 0.75rem;
+  }
+
+  .mobile-menu-city {
+    font-size: 0.78rem;
   }
 
   .section {
@@ -1416,12 +1440,12 @@ h1, h2, h3 {
   }
 
   .section-title {
-    font-size: clamp(2rem, 8vw, 2.6rem);
+    font-size: clamp(2.1rem, 9vw, 2.8rem);
   }
 
   .section-sub {
     margin-top: 18px;
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .section-head-row {
@@ -1449,12 +1473,12 @@ h1, h2, h3 {
 
   .hero-tagline {
     margin-top: 18px;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
   }
 
   .hero-sub {
     margin-top: 16px;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 
   .hero-cta {
@@ -1465,6 +1489,7 @@ h1, h2, h3 {
   .hero-meta {
     margin-top: 34px;
     gap: 14px;
+    font-size: 0.78rem;
   }
 
   .hero-scroll {
@@ -1482,7 +1507,7 @@ h1, h2, h3 {
 
   .manifesto-sub {
     margin-top: 24px;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 
   .marquee {
@@ -1508,8 +1533,12 @@ h1, h2, h3 {
     padding: 16px;
   }
 
+  .p-tag {
+    font-size: 0.7rem;
+  }
+
   .p-cap {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .portfolio-cta {
@@ -1523,16 +1552,17 @@ h1, h2, h3 {
   }
 
   .service-body h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .service-body p {
-    font-size: 0.92rem;
+    font-size: 1.02rem;
     margin-top: 8px;
   }
 
   .service-meta {
     margin-top: 6px;
+    font-size: 0.8rem;
   }
 
   .service-row:hover {
@@ -1559,7 +1589,7 @@ h1, h2, h3 {
 
   .about-copy {
     margin-top: 24px;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 
   .about-stats {
@@ -1577,16 +1607,24 @@ h1, h2, h3 {
     font-size: 2.2rem;
   }
 
+  .stat-label {
+    font-size: 0.8rem;
+  }
+
   .slide {
     padding: 0;
   }
 
   .slide blockquote {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
   }
 
   .slide-author {
     margin-top: 30px;
+  }
+
+  .slide-author em {
+    font-size: 0.78rem;
   }
 
   .slider-controls {
@@ -1608,11 +1646,15 @@ h1, h2, h3 {
 
   .booking-sub {
     margin-top: 22px;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 
   .booking-cta {
     margin-top: 34px;
+  }
+
+  .booking-note {
+    font-size: 0.8rem;
   }
 
   .footer {
@@ -1625,13 +1667,23 @@ h1, h2, h3 {
     padding-bottom: 40px;
   }
 
+  .footer-col a,
+  .footer-col p {
+    font-size: 1rem;
+  }
+
   .footer-bottom {
     justify-content: center;
     text-align: center;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
+  html {
+    font-size: 17px;
+  }
+
   .hero {
     min-height: 100svh;
   }
