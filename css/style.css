@@ -1013,6 +1013,8 @@ h1, h2, h3 {
 .about-grid-portfolio .p-item[data-span="wide"]    { grid-column: span 2; }
 .about-grid-portfolio .p-item[data-span="small"]   { }
 
+.about-grid-portfolio .p-item:nth-child(4) img { object-position: 50% 15%; }
+
 .about-media-label {
   display: inline-block;
   margin-top: 24px;
