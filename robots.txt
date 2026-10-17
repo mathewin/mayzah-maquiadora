@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mayzahmaquiadora.com.br/sitemap.xml
