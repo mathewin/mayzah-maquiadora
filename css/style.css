@@ -1130,6 +1130,35 @@ h1, h2, h3 {
 /* --------------------------------------------------------------------------
    Depoimentos
    -------------------------------------------------------------------------- */
+.testimonials {
+  background: #f3eee6;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.testimonials-head {
+  text-align: center;
+  margin-bottom: clamp(22px, 4vw, 36px);
+}
+
+.testimonials-head .eyebrow {
+  display: inline-block;
+  padding: 6px 14px;
+  border: 1px solid var(--accent);
+  letter-spacing: 0.28em;
+}
+
+.testimonials-head .section-title {
+  margin-top: 16px;
+  font-size: clamp(2.6rem, 6.2vw, 4.6rem);
+  line-height: 1.05;
+}
+
+.testimonials-head .section-title em {
+  display: block;
+  color: var(--accent);
+}
+
 .slider {
   position: relative;
 }
@@ -1798,6 +1827,10 @@ h1, h2, h3 {
 
   .about-sign-name {
     font-size: 1.6rem;
+  }
+
+  .testimonials-head .section-title {
+    font-size: clamp(2.2rem, 10vw, 2.8rem);
   }
 
   .slide {
