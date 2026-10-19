@@ -500,30 +500,19 @@ h1, h2, h3 {
 
 .hero-media {
   position: relative;
-  width: 100%;
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
   overflow: visible;
 }
 
 .hero-media img {
-  width: 100%;
-  height: min(72vh, 820px);
-  object-fit: cover;
-  object-position: center 30%;
-  transform: scale(1.08);
-  animation: heroZoom 2.4s var(--ease) both;
+  width: auto;
+  max-width: 100%;
+  height: min(86vh, 940px);
+  object-fit: contain;
+  object-position: center;
   display: block;
-}
-
-@keyframes heroZoom {
-  from { transform: scale(1.16); }
-  to { transform: scale(1.08); }
-}
-
-@media (min-width: 1280px) {
-  .hero-media img {
-    object-position: center 38%;
-    transform: scale(1.0);
-  }
 }
 
 .hero-overlay {
@@ -540,12 +529,12 @@ h1, h2, h3 {
 
 .hero-content {
   position: absolute;
-  left: 50%;
+  left: 0;
+  right: 0;
   bottom: 0;
   z-index: 2;
-  width: min(1180px, 92vw);
-  transform: translateX(-50%);
-  padding: 0;
+  width: 100%;
+  padding: 0 28px;
   color: #f5f1ea;
 }
 
@@ -1635,12 +1624,15 @@ h1, h2, h3 {
     overflow: visible;
   }
 
+  .hero-media {
+    width: 100%;
+  }
+
   .hero-media img {
+    width: 100%;
     height: auto;
     object-fit: contain;
     object-position: center;
-    transform: none;
-    animation: none;
   }
 
   .hero {
