@@ -1722,7 +1722,7 @@ h1, h2, h3 {
 
   .service-card {
     grid-column: span 2;
-    padding: 12px 10px;
+    padding: 12px 10px 14px;
   }
 
   .service-card:nth-child(4) {
@@ -1734,22 +1734,26 @@ h1, h2, h3 {
   }
 
   .service-num {
-    font-size: 0.82rem;
+    font-size: 0.9rem;
   }
 
   .service-card h3 {
     font-size: 1.05rem;
-    margin-top: 4px;
+    margin-top: 6px;
+    line-height: 1.2;
   }
 
   .service-card p {
-    font-size: 0.82rem;
+    display: block;
+    font-size: 0.78rem;
     margin-top: 6px;
+    line-height: 1.4;
   }
 
   .service-meta {
     margin-top: 8px;
-    font-size: 0.62rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.12em;
   }
 
   .services-note {
@@ -1916,15 +1920,16 @@ h1, h2, h3 {
   }
 
   .service-card {
-    padding: 10px 8px;
+    padding: 12px 8px 14px;
   }
 
   .service-card h3 {
-    font-size: 0.8rem;
+    font-size: 0.98rem;
   }
 
   .service-card p {
-    display: none;
+    display: block;
+    font-size: 0.74rem;
   }
 }
 
