@@ -1324,21 +1324,23 @@ h1, h2, h3 {
    -------------------------------------------------------------------------- */
 .location {
   background: var(--surface);
+  padding: clamp(24px, 4vw, 36px) 0;
 }
 
 .location-grid {
   display: grid;
-  grid-template-columns: 1.35fr 1fr;
-  gap: clamp(20px, 3vw, 40px);
+  grid-template-columns: 1.1fr 1fr;
+  gap: 16px;
   align-items: center;
 }
 
 .location-map {
   position: relative;
-  min-height: 260px;
-  border-radius: 8px;
+  min-height: 160px;
+  height: 160px;
+  border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 24px 60px rgba(22, 19, 17, 0.12);
+  box-shadow: 0 8px 24px rgba(22, 19, 17, 0.1);
   background: var(--bg);
 }
 
@@ -1356,40 +1358,38 @@ h1, h2, h3 {
 }
 
 .location-name {
-  margin-top: 10px;
-  font-size: clamp(2rem, 3.4vw, 2.8rem);
+  margin-top: 4px;
+  font-size: 1.35rem;
 }
 
 .location-address {
-  margin-top: 10px;
-  font-size: 0.92rem;
-  letter-spacing: 0.12em;
+  margin-top: 4px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  line-height: 1.7;
+  line-height: 1.4;
 }
 
 .location-copy {
-  margin-top: 12px;
-  color: var(--muted);
-  max-width: 420px;
+  display: none;
 }
 
 .review-stars-link {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
-  margin-top: 16px;
+  gap: 4px;
+  margin-top: 8px;
 }
 
 .review-stars {
   display: inline-flex;
-  gap: 4px;
-  font-size: 2rem;
+  gap: 2px;
+  font-size: 1.2rem;
   line-height: 1;
   color: var(--accent);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
 }
 
 .review-stars-link:hover .review-stars {
@@ -1409,8 +1409,8 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
-  margin-top: 16px;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .btn-review {
@@ -1583,7 +1583,7 @@ h1, h2, h3 {
   .about-grid,
   .location-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 12px;
   }
 
   .about-media {
@@ -1881,29 +1881,31 @@ h1, h2, h3 {
     gap: 6px;
   }
 
+  .location {
+    padding: 18px 0;
+  }
+
   .location-map {
-    min-height: 160px;
+    min-height: 120px;
+    height: 120px;
   }
 
   .location-name {
-    font-size: 1.55rem;
+    font-size: 1.2rem;
   }
 
   .location-address {
-    font-size: 0.82rem;
-  }
-
-  .location-copy {
-    font-size: 1rem;
+    font-size: 0.78rem;
   }
 
   .review-stars {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
   }
 
   .location-actions {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .booking {
