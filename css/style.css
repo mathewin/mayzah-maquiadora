@@ -549,6 +549,8 @@ h1, h2, h3 {
   margin-inline: auto;
   padding-top: var(--nav-h);
   color: #f5f1ea;
+  align-self: flex-end;
+  padding-bottom: 36px;
 }
 
 .hero-eyebrow {
@@ -1632,12 +1634,34 @@ h1, h2, h3 {
 
   .hero {
     min-height: 0;
-    padding: 88px 0 36px;
-    align-items: flex-end;
+    padding: var(--nav-h) 0 0;
+    align-items: stretch;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .hero-media {
+    position: relative;
+    inset: auto;
+  }
+
+  .hero-media img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    transform: none;
+    animation: none;
+    display: block;
+  }
+
+  .hero-overlay {
+    display: none;
   }
 
   .hero-content {
-    padding-top: 0;
+    padding: 18px 0 24px;
+    align-self: stretch;
   }
 
   .hero-eyebrow {
@@ -1933,7 +1957,7 @@ h1, h2, h3 {
 
   .hero {
     min-height: 0;
-    padding: 80px 0 28px;
+    padding: var(--nav-h) 0 0;
   }
 
   .hero-meta {
