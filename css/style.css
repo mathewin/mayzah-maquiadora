@@ -1131,9 +1131,9 @@ h1, h2, h3 {
    Depoimentos
    -------------------------------------------------------------------------- */
 .testimonials {
-  background: #f3eee6;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  background: #ead7d0;
+  border-top: 1px solid rgba(28, 24, 21, 0.08);
+  border-bottom: 1px solid rgba(28, 24, 21, 0.08);
 }
 
 .testimonials-head {
