@@ -1597,11 +1597,11 @@ h1, h2, h3 {
   }
 
   html {
-    font-size: 15.5px;
+    font-size: 17px;
   }
 
   body {
-    line-height: 1.55;
+    line-height: 1.5;
   }
 
   .nav-actions .btn-outline {
@@ -1609,29 +1609,33 @@ h1, h2, h3 {
   }
 
   .btn {
-    font-size: 0.68rem;
-    padding: 12px 20px;
-    letter-spacing: 0.16em;
+    font-size: 0.78rem;
+    padding: 12px 18px;
+    letter-spacing: 0.14em;
   }
 
   .btn-lg {
-    padding: 14px 24px;
-    font-size: 0.7rem;
+    padding: 14px 22px;
+    font-size: 0.82rem;
   }
 
   .eyebrow {
-    font-size: 0.62rem;
-    letter-spacing: 0.22em;
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
   }
 
   .about-media-label {
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     padding: 8px 14px;
   }
 
   .mobile-menu-city {
-    font-size: 0.68rem;
-    bottom: 24px;
+    font-size: 0.78rem;
+    bottom: 20px;
+  }
+
+  .mobile-menu-links a {
+    font-size: 1.45rem;
   }
 
   .section {
@@ -1643,12 +1647,12 @@ h1, h2, h3 {
   }
 
   .section-title {
-    font-size: clamp(1.5rem, 6.4vw, 1.9rem);
+    font-size: clamp(1.85rem, 7vw, 2.3rem);
   }
 
   .section-sub {
     margin-top: 8px;
-    font-size: 0.9rem;
+    font-size: 1.02rem;
   }
 
   .section-head-row {
@@ -1672,17 +1676,17 @@ h1, h2, h3 {
   }
 
   .hero-title {
-    font-size: clamp(2.4rem, 12vw, 3.2rem);
+    font-size: clamp(2.8rem, 14vw, 3.6rem);
   }
 
   .hero-tagline {
     margin-top: 8px;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
   }
 
   .hero-sub {
     margin-top: 8px;
-    font-size: 0.88rem;
+    font-size: 1.02rem;
   }
 
   .hero-cta {
@@ -1693,7 +1697,7 @@ h1, h2, h3 {
   .hero-meta {
     margin-top: 14px;
     gap: 8px;
-    font-size: 0.62rem;
+    font-size: 0.75rem;
   }
 
   .hero-scroll {
@@ -1705,12 +1709,12 @@ h1, h2, h3 {
   }
 
   .manifesto-quote {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .manifesto-sub {
     margin-top: 10px;
-    font-size: 0.9rem;
+    font-size: 1.02rem;
   }
 
   .marquee {
@@ -1759,12 +1763,12 @@ h1, h2, h3 {
 
   .p-tag,
   .about-grid-portfolio .p-tag {
-    font-size: 0.55rem;
+    font-size: 0.65rem;
   }
 
   .p-cap,
   .about-grid-portfolio .p-cap {
-    font-size: 0.92rem;
+    font-size: 1.05rem;
   }
 
   .portfolio-cta {
@@ -1790,22 +1794,22 @@ h1, h2, h3 {
   }
 
   .service-num {
-    font-size: 0.7rem;
+    font-size: 0.82rem;
   }
 
   .service-card h3 {
-    font-size: 0.88rem;
+    font-size: 1.05rem;
     margin-top: 4px;
   }
 
   .service-card p {
-    font-size: 0.7rem;
+    font-size: 0.82rem;
     margin-top: 6px;
   }
 
   .service-meta {
     margin-top: 8px;
-    font-size: 0.5rem;
+    font-size: 0.62rem;
   }
 
   .services-note {
@@ -1821,7 +1825,7 @@ h1, h2, h3 {
 
   .about-copy {
     margin-top: 10px;
-    font-size: 0.9rem;
+    font-size: 1.02rem;
   }
 
   .about-stats {
@@ -1832,11 +1836,11 @@ h1, h2, h3 {
   }
 
   .stat-num {
-    font-size: 1.35rem;
+    font-size: 1.55rem;
   }
 
   .stat-label {
-    font-size: 0.55rem;
+    font-size: 0.68rem;
     letter-spacing: 0.08em;
   }
 
@@ -1857,7 +1861,7 @@ h1, h2, h3 {
   }
 
   .slide blockquote {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
   }
 
   .slide-author {
@@ -1882,15 +1886,15 @@ h1, h2, h3 {
   }
 
   .location-name {
-    font-size: 1.4rem;
+    font-size: 1.55rem;
   }
 
   .location-address {
-    font-size: 0.72rem;
+    font-size: 0.82rem;
   }
 
   .location-copy {
-    font-size: 0.88rem;
+    font-size: 1rem;
   }
 
   .review-stars {
@@ -1907,12 +1911,12 @@ h1, h2, h3 {
   }
 
   .booking-title {
-    font-size: 1.55rem;
+    font-size: 1.85rem;
   }
 
   .booking-sub {
     margin-top: 8px;
-    font-size: 0.9rem;
+    font-size: 1.02rem;
   }
 
   .booking-cta {
@@ -1924,31 +1928,50 @@ h1, h2, h3 {
   }
 
   .footer {
-    padding-top: 28px;
+    padding: 10px 0 8px;
   }
 
   .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    padding-bottom: 18px;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 12px;
+    padding-bottom: 8px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-brand .nav-brand {
+    font-size: 1rem;
+  }
+
+  .footer-tag {
+    font-size: 0.88rem;
+    margin-top: 2px;
+  }
+
+  .footer-col h4 {
+    font-size: 0.68rem;
+    margin-bottom: 4px;
   }
 
   .footer-col a,
   .footer-col p {
     font-size: 0.88rem;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
   }
 
   .footer-bottom {
     justify-content: center;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
+    padding-top: 6px;
   }
 }
 
 @media (max-width: 480px) {
   html {
-    font-size: 15px;
+    font-size: 16.5px;
   }
 
   .hero {
