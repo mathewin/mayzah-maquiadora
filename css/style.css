@@ -1401,57 +1401,6 @@ h1, h2, h3 {
 }
 
 /* --------------------------------------------------------------------------
-   Agendamento
-   -------------------------------------------------------------------------- */
-.booking {
-  position: relative;
-  overflow: hidden;
-  background: var(--bg);
-  padding: clamp(36px, 5vw, 56px) 0;
-  text-align: center;
-}
-
-.booking-inner {
-  position: relative;
-  z-index: 2;
-  width: min(820px, 92vw);
-  margin-inline: auto;
-}
-
-.booking-eyebrow {
-  margin-bottom: 14px;
-}
-
-.booking-title {
-  font-size: clamp(2.4rem, 6vw, 4.6rem);
-  line-height: 1.12;
-}
-
-.booking-title em {
-  font-style: italic;
-  color: var(--accent);
-}
-
-.booking-sub {
-  max-width: 520px;
-  margin: 14px auto 0;
-  color: var(--muted);
-  font-size: 1.02rem;
-}
-
-.booking-cta {
-  margin-top: 24px;
-}
-
-.booking-note {
-  margin-top: 12px;
-  font-size: 0.72rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-/* --------------------------------------------------------------------------
    Footer
    -------------------------------------------------------------------------- */
 .footer {
@@ -1869,27 +1818,6 @@ h1, h2, h3 {
 
   .review-stars {
     font-size: 1.15rem;
-  }
-
-  .booking {
-    padding: 24px 0;
-  }
-
-  .booking-title {
-    font-size: 1.85rem;
-  }
-
-  .booking-sub {
-    margin-top: 8px;
-    font-size: 1.02rem;
-  }
-
-  .booking-cta {
-    margin-top: 14px;
-  }
-
-  .booking-note {
-    font-size: 0.62rem;
   }
 
   .footer {
