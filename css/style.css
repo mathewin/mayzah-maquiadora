@@ -30,7 +30,7 @@
   --sans: "Jost", "Helvetica Neue", Arial, sans-serif;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --nav-h: 84px;
+  --nav-h: 68px;
 }
 
 /* --------------------------------------------------------------------------
@@ -92,7 +92,7 @@ button {
 }
 
 .section {
-  padding: clamp(52px, 7vw, 88px) 0;
+  padding: clamp(36px, 5vw, 56px) 0;
 }
 
 /* --------------------------------------------------------------------------
@@ -115,7 +115,7 @@ h1, h2, h3 {
 }
 
 .section-head {
-  margin-bottom: clamp(24px, 4vw, 40px);
+  margin-bottom: clamp(16px, 3vw, 28px);
 }
 
 .section-head-row {
@@ -490,8 +490,8 @@ h1, h2, h3 {
    -------------------------------------------------------------------------- */
 .hero {
   position: relative;
-  min-height: 88vh;
-  min-height: 88svh;
+  min-height: 72vh;
+  min-height: 72svh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -680,7 +680,7 @@ h1, h2, h3 {
    Manifesto
    -------------------------------------------------------------------------- */
 .manifesto {
-  padding: clamp(48px, 7vw, 80px) 0;
+  padding: clamp(32px, 5vw, 52px) 0;
   text-align: center;
 }
 
@@ -760,9 +760,9 @@ h1, h2, h3 {
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: clamp(220px, 24vw, 300px);
+  grid-auto-rows: clamp(180px, 20vw, 240px);
   grid-auto-flow: dense;
-  gap: clamp(14px, 2vw, 26px);
+  gap: clamp(8px, 1.4vw, 14px);
 }
 
 .p-item {
@@ -1139,10 +1139,10 @@ h1, h2, h3 {
 
 .slide-mark {
   font-family: var(--serif);
-  font-size: 6rem;
-  line-height: 0.4;
+  font-size: 3.4rem;
+  line-height: 0.5;
   color: var(--accent);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .slide blockquote {
@@ -1323,7 +1323,7 @@ h1, h2, h3 {
 
 .location-map {
   position: relative;
-  min-height: 320px;
+  min-height: 260px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 24px 60px rgba(22, 19, 17, 0.12);
@@ -1420,7 +1420,7 @@ h1, h2, h3 {
   position: relative;
   overflow: hidden;
   background: var(--bg);
-  padding: clamp(56px, 8vw, 88px) 0;
+  padding: clamp(36px, 5vw, 56px) 0;
   text-align: center;
 }
 
@@ -1576,7 +1576,7 @@ h1, h2, h3 {
 
 @media (max-width: 760px) {
   :root {
-    --nav-h: 70px;
+    --nav-h: 60px;
   }
 
   html {
@@ -1608,11 +1608,11 @@ h1, h2, h3 {
   }
 
   .section {
-    padding: 40px 0;
+    padding: 28px 0;
   }
 
   .section-head {
-    margin-bottom: 22px;
+    margin-bottom: 16px;
   }
 
   .section-title {
@@ -1632,7 +1632,7 @@ h1, h2, h3 {
 
   /* Hero mais compacto no mobile */
   .hero {
-    min-height: 78svh;
+    min-height: 68svh;
   }
 
   .hero-content {
@@ -1674,7 +1674,7 @@ h1, h2, h3 {
 
   /* Manifesto */
   .manifesto {
-    padding: 40px 0;
+    padding: 28px 0;
   }
 
   .manifesto-quote {
@@ -1696,8 +1696,8 @@ h1, h2, h3 {
 
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: clamp(150px, 42vw, 230px);
-    gap: 10px;
+    grid-auto-rows: clamp(130px, 36vw, 190px);
+    gap: 6px;
   }
 
   .p-item[data-span="feature"] { grid-column: span 2; grid-row: span 2; }
@@ -1807,7 +1807,7 @@ h1, h2, h3 {
   }
 
   .location-map {
-    min-height: 220px;
+    min-height: 180px;
   }
 
   .location-actions {
@@ -1816,7 +1816,7 @@ h1, h2, h3 {
   }
 
   .booking {
-    padding: 44px 0;
+    padding: 32px 0;
   }
 
   .booking-title {
@@ -1864,7 +1864,7 @@ h1, h2, h3 {
   }
 
   .hero {
-    min-height: 78svh;
+    min-height: 64svh;
   }
 
   .hero-meta {
