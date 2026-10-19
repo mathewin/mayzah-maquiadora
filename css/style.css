@@ -529,9 +529,9 @@ h1, h2, h3 {
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg,
-    rgba(22, 19, 17, 0.55) 0%,
-    rgba(22, 19, 17, 0.26) 45%,
-    rgba(22, 19, 17, 0.72) 100%);
+    rgba(22, 19, 17, 0.18) 0%,
+    rgba(22, 19, 17, 0.08) 42%,
+    rgba(22, 19, 17, 0.42) 100%);
 }
 
 .hero-eyebrow,
