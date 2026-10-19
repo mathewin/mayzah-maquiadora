@@ -1716,13 +1716,14 @@ h1, h2, h3 {
   }
 
   .services-grid {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 8px;
   }
 
   .service-card {
     grid-column: span 2;
-    padding: 12px 10px 14px;
+    padding: 14px 10px 16px;
+    min-height: 0;
   }
 
   .service-card:nth-child(4) {
@@ -1734,26 +1735,29 @@ h1, h2, h3 {
   }
 
   .service-num {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .service-card h3 {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
     margin-top: 6px;
-    line-height: 1.2;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
   }
 
   .service-card p {
     display: block;
-    font-size: 0.78rem;
-    margin-top: 6px;
-    line-height: 1.4;
+    font-size: 0.82rem;
+    margin-top: 8px;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
   }
 
   .service-meta {
-    margin-top: 8px;
-    font-size: 0.58rem;
-    letter-spacing: 0.12em;
+    margin-top: 10px;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    white-space: normal;
   }
 
   .services-note {
@@ -1920,16 +1924,16 @@ h1, h2, h3 {
   }
 
   .service-card {
-    padding: 12px 8px 14px;
+    padding: 14px 8px 16px;
   }
 
   .service-card h3 {
-    font-size: 0.98rem;
+    font-size: 1.08rem;
   }
 
   .service-card p {
     display: block;
-    font-size: 0.74rem;
+    font-size: 0.8rem;
   }
 }
 
